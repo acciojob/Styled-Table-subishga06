@@ -4,12 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cricket World Cup Stats</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 70%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        thead {
+            background-color: #2c3e50;
+            color: white;
+        }
+        th, td {
+            border: 2px solid #34495e;
+            padding: 12px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+        tbody tr:hover {
+            background-color: #d6eaf8;
+            transition: 0.3s;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+    </style>
 </head>
 <body>
     <!-- add table here -->
-
-        
+    <table>
+        <caption>ICC Cricket World Cup 2023 - Team Statistics</caption>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>Matches</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Points</th>
+                <th>Net Run Rate (NRR)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>India</td>
+                <td>9</td>
+                <td>9</td>
+                <td>0</td>
+                <td>18</td>
+                <td>+2.570</td>
+            </tr>
+            <tr>
+                <td>Australia</td>
+                <td>9</td>
+                <td>7</td>
+                <td>2</td>
+                <td>14</td>
+                <td>+0.841</td>
+            </tr>
+            <tr>
+                <td>New Zealand</td>
+                <td>9</td>
+                <td>5</td>
+                <td>4</td>
+                <td>10</td>
+                <td>+0.743</td>
+            </tr>
+            <tr>
+                <td>South Africa</td>
+                <td>9</td>
+                <td>7</td>
+                <td>2</td>
+                <td>14</td>
+                <td>+1.261</td>
+            </tr>
+            <tr>
+                <td>Pakistan</td>
+                <td>9</td>
+                <td>4</td>
+                <td>5</td>
+                <td>8</td>
+                <td>-0.199</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
